@@ -10,7 +10,7 @@ from PIL import Image
 # ---------------------------------------------------------------- page setup
 st.set_page_config(page_title="Wildfire Detector", page_icon="🔥", layout="centered")
 
-MODEL_PATH = "resNet18_80-20_UN_noise.pth"   # <- your exact file name
+MODEL_PATH = "resNet18_20-80_UN_noise.pth"   # <- your exact file name
 CLASS_NAMES = ["No wildfire", "Wildfire"]    # index 0 and 1, same as training
 BG_PATH = Path(__file__).parent / "background.webp"
 
